@@ -49,51 +49,13 @@
             </div>
         </div>
     </div>
-    <div class="services" id="services">
-        <!-- <div class="services-header">
-            <div class="services-header-text-quote">
-                <q>
-                    Together, we'll build your vision, empowering you like a programmer.
-                    No coding required! You'll understand the process from the inside out.
-                    Let's design and implement together, making you our coding co-pilot.
-                </q>
-            </div>
-            <div class="services-header-image">
-                <img src="Images/ceo.png" alt="">
-            </div>
-        </div> -->
-        <h3>Our Services</h3>
-        <h1>
-            Accelerate Your Projects Utilizing
-            Exclusive Resources
-        </h1>
-        <div class="left-service">
-            <h1>Wordpress Web Template</h1>
-            <p>
-                Exaggerate your website using stunning WordPress Theme which are free 
-                to download. Attain an enormous template collection stored only for you.
-            </p>
-        </div>
-        <div class="middle-services">
-            <h1>Graphics Design Resources</h1>
-            <p>
-                Get various essential materials of Graphics Design such as Business Card, 
-                Flyers, Banners, and so on completely free to download.
-            </p>
-        </div>
-        <div class="right-services">
-            <h1>PSD TO HTML Template</h1>
-            <p>
-                Download enchanting free PSD to HTML templates with HTML, CSS, CSS3, 
-                Bootstrap, JavaScript and jQuery. Templates consisting of imposing 
-                features are waiting to be applied to your website.
-            </p>
-        </div>
-    </div>
-    <!-- <div class="scroll-up">
-        <i class='bx bxs-chevron-up'></i>
-        UP
-    </div> -->
-    <script src="Script/script.js"></script>
+    <script>
+        var burger = document.querySelector('.burger');
+        var navLinks = document.querySelector('.nav-links');
+
+        burger.addEventListener('click',function(){
+            navLinks.classList.toggle('showNav');
+        });
+    </script>
 </body>
 </html>
